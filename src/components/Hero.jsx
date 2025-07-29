@@ -16,7 +16,7 @@ const Hero = () => {
   const [loading, setLoading] = useState(true);
   const [loadedVideos, setLoadedVideos] = useState(0);
 
-  const totalVideos = 4;
+  const totalVideos = 2;
   const nextVdRef = useRef(null);
 
   const handleVideoLoad = () => {
@@ -80,7 +80,7 @@ const Hero = () => {
     });
   });
 
-  const getVideoSrc = (index) => `videos/hero-${index}.mp4`;
+  const getVideoSrc = (index) => `videos/hero-${index + 2}.mp4`;
 
   return (
     <div className="relative h-dvh w-screen overflow-x-hidden">
@@ -140,9 +140,6 @@ const Hero = () => {
           />
         </div>
 
-        <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-blue-75">
-          G<b>A</b>MING
-        </h1>
 
         <div className="absolute left-0 top-0 z-40 size-full">
           <div className="mt-24 px-5 sm:px-10">
