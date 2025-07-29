@@ -58,7 +58,7 @@ export const BentoCard = ({ src, title, description, isComingSoon }) => {
 
   return (
     <div className="relative size-full">
-      <video
+      <img
         src={src}
         loop
         muted
@@ -114,13 +114,13 @@ const Features = () => (
 
       <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
         <BentoCard
-          src="videos/feature-1.mp4"
+          src="https://act-webstatic.hoyoverse.com/puzzle/zzz/pz_zCT32XGuUS/resource/puzzle/2025/07/25/188a90b4e8b6867fc31119ae45ddab88_154721073095128116.jpeg?x-oss-process=image/format,webp/quality,Q_90"
           title={
             <>
               radia<b>n</b>t
             </>
           }
-          description="A cross-platform metagame app, turning your activities across Web2 and Web3 games into a rewarding adventure."
+          description=""
           isComingSoon
         />
       </BentoTilt>
@@ -128,7 +128,7 @@ const Features = () => (
       <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7">
         <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
           <BentoCard
-            src="videos/feature-2.mp4"
+            src="https://act-webstatic.hoyoverse.com/puzzle/zzz/pz_zCT32XGuUS/resource/puzzle/2025/07/02/e16439b165a9fbe8fee2992218200639_3663354080678717804.png?x-oss-process=image/format,webp/quality,Q_90"
             title={
               <>
                 zig<b>m</b>a
@@ -141,20 +141,20 @@ const Features = () => (
 
         <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
           <BentoCard
-            src="videos/feature-3.mp4"
+            src="https://act-webstatic.hoyoverse.com/puzzle/zzz/pz_zCT32XGuUS/resource/puzzle/2025/07/02/b54403d7070ceae21985e64429b05be5_2431423374363121870.png?x-oss-process=image/format,webp/quality,Q_90"
             title={
               <>
                 n<b>e</b>xus
               </>
             }
-            description="A gamified social hub, adding a new dimension of play to social interaction for Web3 communities."
+            description=""
             isComingSoon
           />
         </BentoTilt>
 
         <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
           <BentoCard
-            src="videos/feature-4.mp4"
+            src="https://act-webstatic.hoyoverse.com/puzzle/zzz/pz_zCT32XGuUS/resource/puzzle/2025/07/02/d7a958ff3f90e5647aee5261f5eaf774_3969935614415211156.png?x-oss-process=image/format,webp/quality,Q_80"
             title={
               <>
                 az<b>u</b>l
@@ -177,7 +177,7 @@ const Features = () => (
 
         <BentoTilt className="bento-tilt_2">
           <video
-            src="videos/feature-5.mp4"
+            src="https://act-webstatic.hoyoverse.com/puzzle/zzz/pz_zCT32XGuUS/resource/puzzle/2025/07/02/06b11291e1577dbd0800fbc94b6e2abc_2828085126518698237.png?x-oss-process=image/format,webp/quality,Q_90"
             loop
             muted
             autoPlay

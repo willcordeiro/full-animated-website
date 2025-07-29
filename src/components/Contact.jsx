@@ -28,7 +28,7 @@ const Contact = () => {
             clipClass="absolute md:scale-125"
           />
           <ImageClipBox
-            src="/img/swordman.webp"
+            src="https://fastcdn.hoyoverse.com/content-v2/nap/157591/e846699fe2bebf28a134518bd07262fd_6268043848072730696.jpg"
             clipClass="sword-man-clip-path md:scale-125"
           />
         </div>
